@@ -1,0 +1,33 @@
+/* Centra todo en la pantalla */
+body {
+    background: #0b0b0b;          /* Fondo oscuro */
+    display: flex;               /* Para centrar */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;               /* Ocupa toda la pantalla */
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor donde van las luces */
+.contenedor-luces {
+    display: flex;              /* Luces en fila */
+    gap: 15px;                  /* Espacio entre luces */
+    margin-top: 20px;
+}
+
+/* Estilo de cada luz */
+.luz {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;        /* Bordes redondeados */
+    background-color: gray;     /* Color inicial */
+    transition: background-color 0.4s ease; /* Cambio suave */
+    box-shadow: 0 0 20px black;
+}
+
+/* Centrar el texto */
+h1 {
+    text-align: center;
+}
