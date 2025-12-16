@@ -1,4 +1,4 @@
-// -------------------------------
+    // -------------------------------
 // 1. Crear los 5 patrones de colores
 // -------------------------------
 
@@ -32,7 +32,7 @@ app.appendChild(titulo);                       // Agregarlo al div principal
 // -------------------------------
 const contenedorLuces = document.createElement("div"); // Crear div (un contenedor)
 contenedorLuces.classList.add("contenedor-luces");     // Agregar clase para estilos de CSS
-app.appendChild(contenedorLuces);                      // Ponerlo en la página
+app.appendChild(contenedorLuces);                      // Ponerlo en la página(lo agrego al HTML)
 
 
 // -------------------------------
@@ -58,7 +58,7 @@ crearLuces(); // Llamar la función para crearlas
 function actualizarLuces(patron) {
     // Recorremos las 10 luces
     for (let i = 0; i < luces.length; i++) {
-        luces[i].style.backgroundColor = patron[i]; // Cambia el color
+        luces[i].style.backgroundColor = patron[i]; // Cambia el color de forma dinamica
     }
 }
 
